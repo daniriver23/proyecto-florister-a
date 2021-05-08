@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro empleado</title>
+    <link rel="stylesheet" href="Registro.empleado.css"/>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Floristería Mariflor</h1>
+            <h1>Empleados</h1>
+        </header>
+
+        <form method="GET">
+            <table border=1 style="margin: 0 auto;"><tr><td>
+                <table>
+                    </td></tr>
+                    <tr><td><label>Nombre: </label></td><td><input type="text" id="fnombre" name="fnombre" autocomplete="off"></td></tr>
+                    <tr><td><label>Identificación: </label></td>
+                        <td><input list="Identificación" name="Identificación">
+                            <datalist id="Identificación">
+                            <option value="Cédula de ciudadanía">
+                            <option value="Pasaporte">
+                    </td></tr>
+                    <tr><td><label>Género: </label></td>
+                        <td><input list="Género" name="Género">
+                            <datalist id="Género">
+                            <option value="Femenino">
+                            <option value="Masculino">
+                    <tr><td><label>Número de identificación: </label></td><td><input type="number" id="fidentificación" name="fidentificación" autocomplete="off"></td></tr>
+                    <tr><td><label>Fecha de nacimiento: </label></td><td><input type="date" id="fnacimiento" name="fnacimiento"></td></tr>
+                    <tr><td><label>Ciudad de residencia: </label></td><td><input type="text" id="fciudad" name="fciudad" autocomplete="off"></td></tr>
+                    <tr><td><label>Dirección de residencia: </label></td><td><input type="text" id="fdirección" name="fdirección" autocomplete="off"></td></tr>
+                    <tr><td><label>Teléfono móvil: </label></td><td><input type="tel" id="ftelefono" name="ftelefono" autocomplete="off"></td></tr>
+                    <tr><td><label>Correo electrónico: </label></td><td><input type="mail" id="fmail" name="fmail" autocomplete="off"></td></tr>
+                    <tr><td><label>Cargo: </label></td>
+                        <td><input list="Cargo" name="Cargo">
+                            <datalist id="Cargo">
+                            <option value="Administrador">
+                            <option value="Secretaría">
+                            <option value="Decorador">
+                            <option value="Mensajero">
+                    <tr><td><label>Estado civil: </label></td>
+                        <td><input list="Estado" name="Estado">
+                            <datalist id="Estado">
+                            <option value="Casad@">
+                            <option value="Unión libre">
+                            <option value="Solter@">
+                            <option value="Separad@"> 
+                    <tr><td><label>Tiene hijos: </label></td>
+                        <td><input list="Hijos" name="Hijos">
+                            <datalist id="Hijos">
+                            <option value="Si">
+                            <option value="No">
+                    <tr><td><label>Número de hijos: </label></td><td><input type="number" id="fhijos" name="fhijos" autocomplete="off"></td></tr>
+                </table>
+                <tr><td><table width=100%><tr><td><input type="submit"></td><td><input type="reset"></td></tr></table></td></tr>
+  
+            </table>     
+        </form>
+    </div>  
+</body>
+</html>

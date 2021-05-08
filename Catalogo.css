@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background:whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#container{
+    width: 1300px;
+    margin: 0px auto;
+    border: 2px solid black
+}
+
+header{
+    background: url(https://img.freepik.com/vector-gratis/colorido-fondo-floral-acuarela_52683-25461.jpg?size=626&ext=jpg);
+    background-repeat: repeat-x;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    border-bottom: 1px solid black;
+}
+
+.TituloProductos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: black;
+}
+
+.opciones-menu{
+    margin-left: 30px;
+    list-style: none;
+    color: black;
+}
+
+.estilos-menu{
+    margin-left: 250px;
+    
+}
+
+section{
+    width: calc(100% - 20px);
+    margin: 0px auto;
+    background: rgba(242, 250, 249, 0.993);
+    text-align: center;
+    padding: 10px;
+}
+
+footer{
+    background: url(https://img.freepik.com/vector-gratis/colorido-fondo-floral-acuarela_52683-25461.jpg?size=626&ext=jpg);
+    background-repeat: repeat-x;
+    height: 80px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 80px;
+    border-top: 1px solid black;
+}
+
+

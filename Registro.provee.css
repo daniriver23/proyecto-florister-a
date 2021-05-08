@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(242, 250, 249, 0.993);
+}
+
+header{
+    background: url(https://img.freepik.com/vector-gratis/colorido-fondo-floral-acuarela_52683-25461.jpg?size=626&ext=jpg);
+    width: 100%;
+    background-repeat: repeat-x;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+h2{
+    text-align: center;
+}

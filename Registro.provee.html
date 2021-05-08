@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Proveedor</title>
+    <link rel="stylesheet" href="Registro.provee.css"/>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Floristería Mariflor</h1>
+            <h1>Arreglos florales para toda ocasión</h1>
+        </header>
+
+        <form method="GET">
+            <table border=1 style="margin: 0 auto;"><tr><td>
+                <table>
+                    <h2>Datos del Proveedor</h2>
+                    <tr><td><label>Tipo de persona: </label></td>
+                        <td><input list="persona" name="persona">
+                            <datalist id="persona">
+                            <option value="Jurídica">
+                            <option value="Natural">
+                    </td></tr>
+                    <tr><td><label>Nombre: </label></td><td><input type="text" id="fnombre" name="fnombre" autocomplete="off"></td></tr>
+                    <tr><td><label>Identificación: </label></td>
+                        <td><input list="Identificación" name="Identificación">
+                            <datalist id="Identificación">
+                            <option value="Cédula de ciudadanía">
+                            <option value="NIT">
+                    </td></tr>
+                    <tr><td><label>Número de identificación: </label></td><td><input type="number" id="fidentificación" name="fidentificación" autocomplete="off"></td></tr>
+                    <tr><td><label>Fecha de nacimiento: </label></td><td><input type="date" id="fnacimiento" name="fnacimiento"></td></tr>
+                    <tr><td><label>Ciudad de establecimiento: </label></td><td><input type="text" id="fciudad" name="fciudad" autocomplete="off"></td></tr>
+                    <tr><td><label>Dirección de establecimiento: </label></td><td><input type="text" id="fdirección" name="fdirección" autocomplete="off"></td></tr>
+                    <tr><td><label>Teléfono móvil: </label></td><td><input type="tel" id="ftelefono" name="ftelefono"></td></tr>
+                    <tr><td><label>Teléfono fijo: </label></td><td><input type="tel" id="ftelefono" name="ftelefono" autocomplete="off"></td></tr>
+                    <tr><td><label>Correo electrónico: </label></td><td><input type="mail" id="fmail" name="fmail" autocomplete="off"></td></tr>
+                </table>
+                <table>
+                    <h2>Productos o servicios a proveer</h2>
+                    <form action="/action_page.php">
+                    <tr><td><input type="checkbox" id="Prodcuto1" name="Prodcuto1" value="Flores">
+                    <label for="Prodcuto1"> Flores</label><br></td>
+                    <td><input type="checkbox" id="Prodcuto2" name="Prodcuto2" value="Bases">
+                    <label for="Prodcuto2"> Bases para ramos</label><br></td>
+                    <td><input type="checkbox" id="Prodcuto3" name="Prodcuto3" value="Oasis">
+                    <label for="Prodcuto3"> Oasis</label><br></td></tr>
+
+                    <tr><td><input type="checkbox" id="Prodcuto4" name="Prodcuto4" value="Estructuras metálicas">
+                    <label for="Prodcuto4"> Estructuras metálicas decoración</label><br></td>
+                    <td><input type="checkbox" id="Prodcuto5" name="Prodcuto5" value="Variedades decoración">
+                    <label for="Prodcuto5"> Variedades decoración</label><br></td>
+                    <td><input type="checkbox" id="Prodcuto6" name="Prodcuto6" value="Confitería">
+                    <label for="Prodcuto6"> Confitería y licores </label><br></td></tr>
+
+                    <tr><td><input type="checkbox" id="Prodcuto7" name="Prodcuto7" value="Mensajería">
+                    <label for="Prodcuto7"> Mensajería</label><br></td>
+                    <td><input type="checkbox" id="Prodcuto8" name="Prodcuto8" value="Transporte especial">
+                    <label for="Prodcuto8"> Transporte especial</label><br></td>
+                    <td><input type="checkbox" id="Prodcuto9" name="Prodcuto9" value="Decoración especial">
+                    <label for="Prodcuto9"> Decoración especial</label><br></td></tr>
+
+                    </form>
+                </table>
+                <table>
+                    <h2>Asociar cuenta de pago</h2>
+                    <form action="/action_page.php"></form>
+                    <tr><td><label>Nombre del titular de la cuenta: </label></td><td><input type="text" id="fnombre" name="fnombre" autocomplete="off"></td></tr>
+                    <tr><td><label>Identificación: </label></td>
+                    <td><input list="Identificación" name="Identificación">
+                        <datalist id="Identificación">
+                        <option value="Cédula de ciudadanía">
+                        <option value="NIT">
+                    <tr><td><label>Banco: </label></td>
+                    <td><input list="Banco" name="Banco">
+                        <datalist id="Banco">
+                        <option value="Bancolombia">
+                        <option value="Davivienda">
+                        <option value="Banco de Bogotá">
+                        <option value="Itaú">
+                        <option value="Colpatria">
+                        <option value="BBVA">
+                        <option value="AV villas">
+                        <option value="Popular">
+                    <tr><td><label>Número de cuenta: </label></td><td><input type="number" id="fcuenta" name="fcuenta" autocomplete="off"></td></tr>
+                    <tr><td><label>Tipo de cuenta: </label></td>
+                        <td><input list="Tipo de cuenta" name="Tipo de cuenta">
+                            <datalist id="Tipo de cuenta">
+                            <option value="Ahorros">
+                            <option value="Corriente">   
+                    </form>
+                </table>
+                <tr><td><table width=100%><tr><td><input type="submit"></td><td><input type="reset"></td></tr></table></td></tr>
+  
+            </table>     
+        </form>
+    </div>   
+</body>
+</html>
